@@ -1,0 +1,74 @@
+/* Reset de margem e padding para manter o design minimalista */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e estilo do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFAF0; /* Fundo branco amarelado para conforto visual */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container do formulário */
+.container {
+    background-color: #FFF3E0; /* Laranja claro suave */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Título do formulário */
+h1 {
+    color: #FF7043; /* Laranja vibrante */
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+/* Estilo dos labels */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilo dos inputs */
+input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #FFAB91; /* Borda laranja suave */
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #FFF; /* Fundo branco */
+    color: #333;
+}
+
+/* Estilo do botão */
+button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #FF7043; /* Laranja forte */
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background-color: #E64A19; /* Vermelho escuro ao passar o mouse */
+}
